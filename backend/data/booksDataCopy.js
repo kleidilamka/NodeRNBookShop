@@ -1,0 +1,86 @@
+const booksDataCopy = [
+  {
+    image: "https://images-na.ssl-images-amazon.com/images/I/71951W96oWL.jpg",
+    author: "Robert Greene",
+    price: 20,
+    rating: 5,
+    numReviews: 0,
+    isFeatured: true,
+    title: "FIFA 20",
+    description:
+      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+    categoryTitle: "Jari",
+    category: {
+      $oid: "5f15d5cdcb4a6642bddc0fe9",
+    },
+    countInStock: 25,
+    __v: 0,
+  },
+  {
+    image: "https://images-na.ssl-images-amazon.com/images/I/71951W96oWL.jpg",
+    author: "Robert Greene",
+    price: 350.9,
+    rating: 5,
+    numReviews: 0,
+    isFeatured: true,
+    title: "48 Laws Of Power",
+    description: "beautiful chair for garden",
+    categoryTitle: "Jari",
+    category: {
+      $oid: "5f15d545f3a046427a1c26e2",
+    },
+    countInStock: 10,
+    __v: 0,
+  },
+  {
+    image: "https://images-na.ssl-images-amazon.com/images/I/71951W96oWL.jpg",
+    author: "Robert Greene",
+    price: 1350.9,
+    rating: 5,
+    numReviews: 0,
+    isFeatured: true,
+    title: "Swimming Pool",
+    description: "beautiful Swimming Pool for garden",
+    categoryTitle: "Jari",
+    category: {
+      $oid: "5f15d5b7cb4a6642bddc0fe8",
+    },
+    countInStock: 10,
+    __v: 0,
+  },
+  {
+    image: "https://images-na.ssl-images-amazon.com/images/I/71951W96oWL.jpg",
+    author: "Robert Greene",
+    price: 490.9,
+    rating: 5,
+    numReviews: 0,
+    isFeatured: true,
+    title: "Grass Cut Machine",
+    description: "Grass Cut Machine for garden",
+    categoryTitle: "Jari",
+    category: {
+      $oid: "5f15d5cdcb4a6642bddc0fe9",
+    },
+    countInStock: 5,
+    __v: 0,
+  },
+  {
+    image:
+      "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/action-thriller-book-cover-design-template-3675ae3e3ac7ee095fc793ab61b812cc_screen.jpg?ts=1588152105",
+    author: "Robert Greene",
+    price: 1000,
+    rating: 5,
+    numReviews: null,
+    isFeatured: true,
+    title: "Sofa",
+    description: "Big Sofa for living room",
+    categoryTitle: "Jari",
+    category: {
+      $oid: "5f15d5b2cb4a6642bddc0fe7",
+    },
+    countInStock: 2,
+    __v: 0,
+  },
+];
+
+export default booksDataCopy;
